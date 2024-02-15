@@ -1,0 +1,72 @@
+* {
+    font-family: "Pacifico", cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./assets/wallpaper-img.jpg);
+}
+
+.container {
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(136 155 219 / 80%);
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-evenly;
+    justify-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+#rock {
+    background-color: rgba(157, 107, 204, 0.842);
+}
+
+#paper {
+    background-color: rgb(248, 154, 120);
+}
+
+#scissors {
+    background-color: #fc717c;
+}
+
+.your-score span {
+    color: rgb(255, 0, 255);
+}
+
+.score-machine span {
+    color: #f54c5a;
+}
